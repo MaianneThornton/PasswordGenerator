@@ -23,6 +23,41 @@
 </head>
 
 <body>
+  <div id="container">
+    <h2>Password Generator</h2>
+    <section id="result-container">
+      <!-- This span is where the password will be displayed -->
+      <span id="result"></span>
+      <button class="btn" id="clipboard">
+        <!-- Font Awesome Icon -->
+        <i class="far fa-clipboard"></i>
+      </button>
+    </section>
+    <section id="options">
+      <div id="option">
+        <label for="lowercase">Lowercase Letters</label>
+        <input type="checkbox" name="" id="lowercase">
+      </div>
+      <div id="option">
+        <label for="uppercase">Uppercase Letters</label>
+        <input type="checkbox" name="" id="uppercase">
+      </div>
+      <div id="option">
+        <label for="numbers">Numbers</label>
+        <input type="checkbox" name="" id="numbers">
+      </div>
+      <div id="option">
+        <label for="symbols"> Symbols</label>
+        <input type="checkbox" name="" id="symbols">
+      </div>
+      <div id="option">
+        <label for="Length">Length</label>
+        <!-- Value is the starting/default number. Also, min/max set the range that the user can select. -->
+        <input type="number" name="" id="Length" value="10" min="4" max="20">
+      </div>
+    </section>
+    <button class="btn" id="generate">Generate Password</button>
+  </div>
 
   <!-- Link to JS File -->
   <script src="app.js"></script>
