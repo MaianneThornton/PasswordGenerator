@@ -58,3 +58,13 @@ const randomFunctions = {
   number: getRandomNumber,
   symbol: getRandomSymbol
 };
+
+// Selecting the DOM Elements
+const resultElement = document.querySelector(`#result`);
+const clipboardElement = document.querySelector(`#clipboard`);
+const lowercaseElement = document.querySelector(`#lowercase`);
+const uppercaseElement = document.querySelector(`#uppercase`);
+const numbersElement = document.querySelector(`#numbers`);
+const symbolsElement = document.querySelector(`#symbols`);
+const lengthElement = document.querySelector(`#length`);
+const generateElement = document.querySelector(`#generate`);
